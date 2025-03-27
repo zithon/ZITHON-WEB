@@ -7,9 +7,9 @@
     <title>ZITHON web dev</title>
 </head>
 <body class="bg-[#1E1E1E]">
-    <header class="flex bg-[#1E1E1E] justify-between items-center p-2"> 
+    <header class="flex bg-[#1E1E1E] justify-between items-center p-2 scroll-header">
         <img class="ml-10" src="img/Code.png" alt="Logo">
-        <div class="p-1 whitespace-nowrap overflow-hidden flex items-center justify-start flex-wrap">
+        <div class="p-1 max-w-[70vw] flex items-center whitespace-nowrap scroll-container">
             <a class="m-4 p-2 hover:rounded-lg text-lg hover:bg-[#444] text-white" href="index.html">Main</a>
             <a class="m-4 p-2 hover:rounded-lg text-lg hover:bg-[#444] text-white" href="projects.html">Projects</a>
             <a class="m-4 p-2 hover:rounded-lg text-lg hover:bg-[#444] text-white" href="contact.html">Contact</a>
@@ -19,58 +19,55 @@
     </header>
 
     <div class="flex flex-col min-w-full min-h-[80vh] rounded-3xl bg-[#2C2C2C] justify-center items-center">
-        <h1 class="text-white xl:text-[5vw] sm:text-[10vw] font-bold">{PROJECTS}</h1>
+        <h1 class="text-white text-[5vw] font-bold">{PROJECTS}</h1>
         <h2 class="text-[#FFF] xl:text-[1.7vw] sm:text-[5vw] opacity-50">by zithon.</h2>
     </div>
 
-    <div class="flex flex-col min-w-full min-h-[80vh] bg-[#1E1E1E] justify-center">
-        <h1 class="sm:mb-15 xl:mb-20 text-white sm:text-[7vw] xl:text-[1.9vw] mt-20 font-bold xl:ml-15">Completed Projects</h1>
-        <div class="flex sm:flex-col sm:m-20 xl:flex-row justify-between xl:pl-30 xl:pr-30">
-            <div class="flex flex-col sm:mb-20 border xl:max-w-[23vw] p-5 rounded-3xl border-white">
-                <img class="max-w-[100vw] sm:max-h-[20vh] max-h-[130px] opacity-90 rounded-3xl" src="img/custom.png" alt="customers">
-                <p class="sm:text-[3vw] xl:text-[1.2vw] text-white mt-3">A draft text briefly describing the completed order. Details on a professional approach to execution.</p>
-                <a class="p-1.5 text-center mt-4 max-w-[100vw] pr-8 pl-8 bg-white text-[#1E1E1E] rounded-2xl hover:bg-[#444] hover:text-white" href="#">Link to the website: www.site-name.com</a>
+    <section class="bg-[#1E1E1E] rounded-3xl">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+            <div class="mx-auto max-w-screen-md text-center mb-12 lg:mb-12">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Completed Projects</h2>
             </div>
-            
-            <div class="flex flex-col sm:mb-20 border xl:max-w-[23vw] p-5 rounded-3xl border-white">
-                <img class="max-w-[100vw] sm:max-h-[20vh] max-h-[130px] rounded-3xl" src="img/completed.png" alt="customers">
-                <p class="sm:text-[3vw] xl:text-[1.2vw] text-white mt-3">Custom Web Service Development. Description of technological approaches used in development.</p>
-                <a class="p-1.5 text-center mt-4 max-w-[100vw] pr-8 pl-8 bg-white text-[#1E1E1E] rounded-2xl hover:bg-[#444] hover:text-white" href="#">Link to the website: www.site-name.com</a>
-            </div>
-            
-            <div class="flex flex-col sm:mb-20 border xl:max-w-[23vw] p-5 rounded-3xl border-white">
-                <img class="max-w-[100vw] sm:max-h-[20vh] max-h-[130px] opacity-90 rounded-3xl" src="img/custom.png" alt="customers">
-                <p class="sm:text-[3vw] xl:text-[1.2vw] text-white mt-3">A draft text briefly describing the completed order. Details on a professional approach to execution.</a></p>
-                <a class="p-1.5 text-center mt-4 max-w-[100vw] pr-8 pl-8 bg-white text-[#1E1E1E] rounded-2xl hover:bg-[#444]  hover:text-white" href="#">Link to the website: www.site-name.com</a>
-            </div>
-        </div>
-    </div>
-    
-    <div class="flex bg-[#1E1E1E] items-center justify-center">
-        <hr class="w-[80vw]">
-    </div>
+            <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
 
-    <div class="flex flex-col min-w-full min-h-[80vh] bg-[#1E1E1E] justify-center">
-        <div class="flex sm:flex-col sm:m-20 xl:flex-row justify-between xl:pl-30 xl:pr-30">
-            <div class="flex flex-col sm:mb-20 border xl:max-w-[23vw] p-5 rounded-3xl border-white">
-                <img class="max-w-[100vw] sm:max-h-[20vh] max-h-[130px] opacity-90 rounded-3xl" src="img/custom.png" alt="customers">
-                <p class="sm:text-[3vw] xl:text-[1.2vw] text-white mt-3">A draft text briefly describing the completed order. Details on a professional approach to execution.</p>
-                <a class="p-1.5 text-center mt-4 max-w-[100vw] pr-8 pl-8 bg-white text-[#1E1E1E] rounded-2xl hover:bg-[#444] hover:text-white" href="#">Link to the website: www.site-name.com</a>
-            </div>
-            
-            <div class="flex flex-col sm:mb-20 border xl:max-w-[23vw] p-5 rounded-3xl border-white">
-                <img class="max-w-[100vw] sm:max-h-[20vh] max-h-[130px] rounded-3xl" src="img/completed.png" alt="customers">
-                <p class="sm:text-[3vw] xl:text-[1.2vw] text-white mt-3">Custom Web Service Development. Description of technological approaches used in development.</p>
-                <a class="p-1.5 text-center mt-4 max-w-[100vw] pr-8 pl-8 bg-white text-[#1E1E1E] rounded-2xl hover:bg-[#444] hover:text-white" href="#">Link to the website: www.site-name.com</a>
-            </div>
-            
-            <div class="flex flex-col sm:mb-20 border xl:max-w-[23vw] p-5 rounded-3xl border-white">
-                <img class="max-w-[100vw] sm:max-h-[20vh] max-h-[130px] opacity-90 rounded-3xl" src="img/custom.png" alt="customers">
-                <p class="sm:text-[3vw] xl:text-[1.2vw] text-white mt-3">A draft text briefly describing the completed order. Details on a professional approach to execution.</a></p>
-                <a class="p-1.5 text-center mt-4 max-w-[100vw] pr-8 pl-8 bg-white text-[#1E1E1E] rounded-2xl hover:bg-[#444]  hover:text-white" href="#">Link to the website: www.site-name.com</a>
+                <div class="flex flex-col bg-[#1E1E1E] p-6 mx-auto max-w-lg text-center text-white rounded-3xl border border-gray-100 shadow ">
+                    <img class="rounded-3xl mb-5" src="img/custom.png" alt="customers">
+                    <p class="font-light text-white sm:text-lg">"A draft text briefly describing the completed order. Details on a professional approach to execution."</p>
+                    <a href="contact.html" class="text-black p-1.5 text-center mt-4 max-w-[100vw] pr-8 pl-8 bg-white text-[#1E1E1E] rounded-xl hover:bg-[#444] hover:text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-lg px-5 py-2.5 text-center">www.site-name.com</a>
+                </div>
+
+                <div class="flex flex-col bg-[#1E1E1E] p-6 mx-auto max-w-lg text-center text-white rounded-3xl border border-gray-100 shadow ">
+                    <img class="rounded-3xl mb-5" src="img/custom.png" alt="customers">
+                    <p class="font-light text-white sm:text-lg">"A draft text briefly describing the completed order. Details on a professional approach to execution."</p>
+                    <a href="contact.html" class="text-black p-1.5 text-center mt-4 max-w-[100vw] pr-8 pl-8 bg-white text-[#1E1E1E] rounded-xl hover:bg-[#444] hover:text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-lg px-5 py-2.5 text-center">www.site-name.com</a>
+                </div>
+
+                <div class="flex flex-col bg-[#1E1E1E] p-6 mx-auto max-w-lg text-center text-white rounded-3xl border border-gray-100 shadow ">
+                    <img class="rounded-3xl mb-5" src="img/custom.png" alt="customers">
+                    <p class="font-light text-white sm:text-lg">"A draft text briefly describing the completed order. Details on a professional approach to execution."</p>
+                    <a href="contact.html" class="text-black p-1.5 text-center mt-4 max-w-[100vw] pr-8 pl-8 bg-white text-[#1E1E1E] rounded-xl hover:bg-[#444] hover:text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-lg px-5 py-2.5 text-center">www.site-name.com</a>
+                </div>
+
+                <div class="flex flex-col bg-[#1E1E1E] p-6 mx-auto max-w-lg text-center text-white rounded-3xl border border-gray-100 shadow ">
+                    <img class="rounded-3xl mb-5" src="img/custom.png" alt="customers">
+                    <p class="font-light text-white sm:text-lg">"A draft text briefly describing the completed order. Details on a professional approach to execution."</p>
+                    <a href="contact.html" class="text-black p-1.5 text-center mt-4 max-w-[100vw] pr-8 pl-8 bg-white text-[#1E1E1E] rounded-xl hover:bg-[#444] hover:text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-lg px-5 py-2.5 text-center">www.site-name.com</a>
+                </div>
+
+                <div class="flex flex-col bg-[#1E1E1E] p-6 mx-auto max-w-lg text-center text-white rounded-3xl border border-gray-100 shadow ">
+                    <img class="rounded-3xl mb-5" src="img/custom.png" alt="customers">
+                    <p class="font-light text-white sm:text-lg">"A draft text briefly describing the completed order. Details on a professional approach to execution."</p>
+                    <a href="contact.html" class="text-black p-1.5 text-center mt-4 max-w-[100vw] pr-8 pl-8 bg-white text-[#1E1E1E] rounded-xl hover:bg-[#444] hover:text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-lg px-5 py-2.5 text-center">www.site-name.com</a>
+                </div>
+
+                <div class="flex flex-col bg-[#1E1E1E] p-6 mx-auto max-w-lg text-center text-white rounded-3xl border border-gray-100 shadow ">
+                    <img class="rounded-3xl mb-5" src="img/custom.png" alt="customers">
+                    <p class="font-light text-white sm:text-lg">"A draft text briefly describing the completed order. Details on a professional approach to execution."</p>
+                    <a href="contact.html" class="text-black p-1.5 text-center mt-4 max-w-[100vw] pr-8 pl-8 bg-white text-[#1E1E1E] rounded-xl hover:bg-[#444] hover:text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-lg px-5 py-2.5 text-center">www.site-name.com</a>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <footer class="flex flex-col bg-[#1E1E1E] items-center justify-center">
         <hr class="w-[90vw]">

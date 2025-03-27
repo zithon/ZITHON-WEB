@@ -72,6 +72,19 @@
     --default-mono-font-family: var(--font-mono);
   }
 }
+
+.scroll-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.scroll-container {
+  display: flex;
+  overflow-x: auto;        
+  white-space: nowrap;    
+}
+
+
 @layer base {
   *, ::after, ::before, ::backdrop, ::file-selector-button {
     box-sizing: border-box;

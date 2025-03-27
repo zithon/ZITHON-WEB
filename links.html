@@ -9,43 +9,64 @@
 <body class="bg-[#1E1E1E]">
     <header class="flex bg-[#1E1E1E] justify-between items-center p-2"> 
         <img class="ml-10" src="img/Code.png" alt="Logo">
-        <div class="p-7 text-white">
-            <a class="lg:m-6 sm:p-1 sm:m-2 lg:p-2 hover:rounded-lg hover:bg-[#444]" href="index.html">Main</a>
-            <a class="lg:m-6 sm:p-1 sm:m-2 lg:p-2 hover:rounded-lg hover:bg-[#444]" href="projects.html">Projects</a>
-            <a class="lg:m-6 sm:p-1 sm:m-2 lg:p-2 hover:rounded-lg hover:bg-[#444]" href="contact.html">Contact</a>
-            <a class="lg:m-6 sm:p-1 sm:m-2 lg:p-2 hover:rounded-lg hover:bg-[#444]" href="links.html">Link</a>
-            <a class="lg:p-1.5 sm:p-1.5 sm:pr-5 sm:pl-5 sm:m-2 lg:pr-15 lg:pl-15 bg-white text-[#1E1E1E] rounded-lg hover:bg-[#444] hover:text-white" href="price.html">Price</a>
+        <div class="p-1 whitespace-nowrap overflow-hidden flex items-center justify-start flex-wrap">
+            <a class="m-4 p-2 hover:rounded-lg text-lg hover:bg-[#444] text-white" href="index.html">Main</a>
+            <a class="m-4 p-2 hover:rounded-lg text-lg hover:bg-[#444] text-white" href="projects.html">Projects</a>
+            <a class="m-4 p-2 hover:rounded-lg text-lg hover:bg-[#444] text-white" href="contact.html">Contact</a>
+            <a class="m-4 p-2 hover:rounded-lg text-lg hover:bg-[#444] text-white" href="links.html">Link</a>
+            <a class="m-4 pl-8 pr-8 bg-white rounded-lg hover:rounded-lg text-lg hover:bg-[#444]" href="price.html">Price</a>
         </div>
     </header>
 
-    <div class="flex flex-col min-w-full min-h-[80vh] rounded-3xl bg-[#2C2C2C] justify-center items-center">
-        <div class="flex flex-row mb-30"><h2 class="text-[#FFF] underline xl:text-[2.5vw] sm:text-[5vw] opacity-50">Links</h2></div>   
-        <div class="flex sm:flex-col xl:flex-row">
-            <a href="#" class="block m-10 max-w-sm bg-[#1E1E1E] p-6 border border-gray-200 rounded-lg shadow-md hover:bg-[#444] ">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">My GitHub</h5>
-                <p class="font-normal text-gray-700 dark:text-gray-400">"Here is my GitHub   link, feel free to visit."</p>
-            </a>
-            <a href="#" class="block m-10  max-w-sm bg-[#1E1E1E] p-6 border border-gray-200 rounded-lg shadow-md hover:bg-[#444] ">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">My Telegram</h5>
-                <p class="font-normal text-gray-700 dark:text-gray-400">"Here is my Telegram link, feel free to visit."</p>
-            </a>
-            <a href="#" class="block m-10  max-w-sm bg-[#1E1E1E] p-6 border border-gray-200 rounded-lg shadow-md hover:bg-[#444] ">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">My Discord</h5>
-                <p class="font-normal text-gray-700 dark:text-gray-400">"Here is my Discord link, feel free to visit."</p>
-            </a>
-            <a href="#" class="block m-10  max-w-sm bg-[#1E1E1E] p-6 border border-gray-200 rounded-lg shadow-md hover:bg-[#444] ">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">My Instagram</h5>
-                <p class="font-normal text-gray-700 dark:text-gray-400">"Here is my Instagram link, feel free to visit."</p>
-            </a>
+    <section class="bg-[#2C2C2C] rounded-3xl">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+            <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Links</h2>
+            </div>
+            <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
+
+                <div class="flex flex-col bg-[#1E1E1E] p-6 mx-auto max-w-lg text-center text-white rounded-lg border border-gray-100 shadow ">
+                    <h3 class="mb-6 text-4xl font-semibold underline">My GitHub</h3>
+                    <p class="font-light text-white sm:text-lg">"Here is my GitHub link, feel free to visit."</p>
+                    <a href="contact.html" class="text-black p-1.5 text-center mt-4 max-w-[100vw] pr-8 pl-8 bg-white text-[#1E1E1E] rounded-xl hover:bg-[#444] hover:text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-lg px-5 py-2.5 text-center">Link</a>
+                </div>
+
+                <div class="flex flex-col bg-[#1E1E1E] p-6 mx-auto max-w-lg text-center text-white rounded-lg border border-gray-100 shadow ">
+                  <h3 class="mb-6 text-4xl font-semibold underline">My Telegram</h3>
+                  <p class="font-light text-white sm:text-lg">"Here is my Telegram link, feel free to visit."</p>
+                  <a href="contact.html" class="text-black p-1.5 text-center mt-4 max-w-[100vw] pr-8 pl-8 bg-white text-[#1E1E1E] rounded-xl hover:bg-[#444] hover:text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-lg px-5 py-2.5 text-center">Link</a>
+                </div>
+
+                <div class="flex flex-col bg-[#1E1E1E] p-6 mx-auto max-w-lg text-center text-white rounded-lg border border-gray-100 shadow ">
+                  <h3 class="mb-6 text-4xl font-semibold underline">Instagram</h3>
+                  <p class="font-light text-white sm:text-lg">"Here is my Instagram link, feel free to visit."</p>
+                  <a href="contact.html" class="text-black p-1.5 text-center mt-4 max-w-[100vw] pr-8 pl-8 bg-white text-[#1E1E1E] rounded-xl hover:bg-[#444] hover:text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-lg px-5 py-2.5 text-center">Link</a>
+                </div>
+
+                <div class="flex flex-col bg-[#1E1E1E] p-6 mx-auto max-w-lg text-center text-white rounded-lg border border-gray-100 shadow ">
+                    <h3 class="mb-6 text-4xl font-semibold underline">Discord</h3>
+                    <p class="font-light text-white sm:text-lg">"Here is my Discord link, feel free to visit."</p>
+                    <a href="contact.html" class="text-black p-1.5 text-center mt-4 max-w-[100vw] pr-8 pl-8 bg-white text-[#1E1E1E] rounded-xl hover:bg-[#444] hover:text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-lg px-5 py-2.5 text-center">Link</a>
+                </div>
+
+                <div class="flex flex-col bg-[#1E1E1E] p-6 mx-auto max-w-lg text-center text-white rounded-lg border border-gray-100 shadow ">
+                    <h3 class="mb-6 text-4xl font-semibold underline">Reddit</h3>
+                    <p class="font-light text-white sm:text-lg">"Here is my Reddit link, feel free to visit."</p>
+                    <a href="contact.html" class="text-black p-1.5 text-center mt-4 max-w-[100vw] pr-8 pl-8 bg-white text-[#1E1E1E] rounded-xl hover:bg-[#444] hover:text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-lg px-5 py-2.5 text-center">Link</a>
+                </div>
+
+                <div class="flex flex-col bg-[#1E1E1E] p-6 mx-auto max-w-lg text-center text-white rounded-lg border border-gray-100 shadow ">
+                    <h3 class="mb-6 text-4xl font-semibold underline">LinkedIn</h3>
+                    <p class="font-light text-white sm:text-lg">"Here is my Linked link, feel free to visit."</p>
+                    <a href="contact.html" class="text-black p-1.5 text-center mt-4 max-w-[100vw] pr-8 pl-8 bg-white text-[#1E1E1E] rounded-xl hover:bg-[#444] hover:text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-lg px-5 py-2.5 text-center">Link</a>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
 
     <footer class="flex flex-col bg-[#1E1E1E] items-center justify-center">
         <hr class="w-[90vw] mt-7">
         <ul class="flex items-center p-20 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
-            <li>
-                <a class="text-1[vw] p-8">Copyright © 2025 </a>
-            </li>
             <li>
                 <a href="#" class="hover:underline me-4 md:me-6">About</a>
             </li>
